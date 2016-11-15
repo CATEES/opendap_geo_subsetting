@@ -2,7 +2,7 @@
 
 A notebook demonstrating how to subset a remote OPeNDAP dataset by geographical area.
 
-To run in binder, click the button below, then click to open the `opendap_geo_subsetting.ipynb` notebook:
+To run in binder, click the button below:
 
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/catees/opendap_geo_subsetting)
 
