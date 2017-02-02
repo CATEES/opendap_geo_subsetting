@@ -3,6 +3,6 @@
 set -e
 env=opendap_geo_subsetting
 conda info --envs | grep -q "^$env" && conda env remove -q -y -n $env
-conda env create -f develop.yml
+conda env create -f environment.yml -n $env
 source activate $env
 jupyter notebook --notebook-dir=. --ip=0.0.0.0
